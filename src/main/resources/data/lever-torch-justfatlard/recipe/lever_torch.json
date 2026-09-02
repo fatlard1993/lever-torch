@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:lever",
+    "minecraft:torch"
+  ],
+  "result": {
+    "id": "lever-torch-justfatlard:lever_torch"
+  }
+}

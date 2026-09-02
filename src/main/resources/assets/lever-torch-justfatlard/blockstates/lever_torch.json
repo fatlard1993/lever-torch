@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "face=ceiling,facing=east,powered=false": { "model": "lever-torch-justfatlard:block/lever_torch_ceiling", "y": 90 },
+    "face=ceiling,facing=east,powered=true": { "model": "lever-torch-justfatlard:block/lever_torch_ceiling_on", "y": 90 },
+    "face=ceiling,facing=north,powered=false": { "model": "lever-torch-justfatlard:block/lever_torch_ceiling" },
+    "face=ceiling,facing=north,powered=true": { "model": "lever-torch-justfatlard:block/lever_torch_ceiling_on" },
+    "face=ceiling,facing=south,powered=false": { "model": "lever-torch-justfatlard:block/lever_torch_ceiling", "y": 180 },
+    "face=ceiling,facing=south,powered=true": { "model": "lever-torch-justfatlard:block/lever_torch_ceiling_on", "y": 180 },
+    "face=ceiling,facing=west,powered=false": { "model": "lever-torch-justfatlard:block/lever_torch_ceiling", "y": 270 },
+    "face=ceiling,facing=west,powered=true": { "model": "lever-torch-justfatlard:block/lever_torch_ceiling_on", "y": 270 },
+    "face=floor,facing=east,powered=false": { "model": "lever-torch-justfatlard:block/lever_torch_floor", "y": 90 },
+    "face=floor,facing=east,powered=true": { "model": "lever-torch-justfatlard:block/lever_torch_floor_on", "y": 90 },
+    "face=floor,facing=north,powered=false": { "model": "lever-torch-justfatlard:block/lever_torch_floor" },
+    "face=floor,facing=north,powered=true": { "model": "lever-torch-justfatlard:block/lever_torch_floor_on" },
+    "face=floor,facing=south,powered=false": { "model": "lever-torch-justfatlard:block/lever_torch_floor", "y": 180 },
+    "face=floor,facing=south,powered=true": { "model": "lever-torch-justfatlard:block/lever_torch_floor_on", "y": 180 },
+    "face=floor,facing=west,powered=false": { "model": "lever-torch-justfatlard:block/lever_torch_floor", "y": 270 },
+    "face=floor,facing=west,powered=true": { "model": "lever-torch-justfatlard:block/lever_torch_floor_on", "y": 270 },
+    "face=wall,facing=east,powered=false": { "model": "lever-torch-justfatlard:block/lever_torch_wall", "y": 90 },
+    "face=wall,facing=east,powered=true": { "model": "lever-torch-justfatlard:block/lever_torch_wall_on", "y": 90 },
+    "face=wall,facing=north,powered=false": { "model": "lever-torch-justfatlard:block/lever_torch_wall" },
+    "face=wall,facing=north,powered=true": { "model": "lever-torch-justfatlard:block/lever_torch_wall_on" },
+    "face=wall,facing=south,powered=false": { "model": "lever-torch-justfatlard:block/lever_torch_wall", "y": 180 },
+    "face=wall,facing=south,powered=true": { "model": "lever-torch-justfatlard:block/lever_torch_wall_on", "y": 180 },
+    "face=wall,facing=west,powered=false": { "model": "lever-torch-justfatlard:block/lever_torch_wall", "y": 270 },
+    "face=wall,facing=west,powered=true": { "model": "lever-torch-justfatlard:block/lever_torch_wall_on", "y": 270 }
+  }
+}

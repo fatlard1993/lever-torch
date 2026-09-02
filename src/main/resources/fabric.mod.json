@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "lever-torch-justfatlard",
+  "version": "${version}",
+  "name": "Lever Torch",
+  "description": "A lever that wears a torch: standard torch placement while off, swung over while on",
+  "authors": [
+    "justfatlard"
+  ],
+  "contact": {
+    "sources": "https://github.com/fatlard1993/lever-torch"
+  },
+  "license": "MIT",
+  "icon": "assets/lever-torch-justfatlard/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "justfatlard.lever_torch.Main"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loaderVersion}",
+    "fabric-api": "${fabricApiVersion}",
+    "minecraft": "${minecraftDependency}",
+    "java": ">=25",
+    "pandorical": "*"
+  }
+}
