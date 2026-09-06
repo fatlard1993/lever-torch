@@ -9,6 +9,13 @@ A Fabric mod that adds one block: a lever wearing a torch.
 - **The tell is the swing**: pulling it swings the torch over toward the way it faces, the way a lever's handle throws.
 - **Lit either way**: it burns at a torch's light level in both states, so the light never gives the state away.
 
+## Hangs From A Slab
+
+Vanilla will not hang a lever from the underside of a top slab, because that face is not at the
+block's edge. It is a flat face all the same, so here a lever hangs from it - the lever torch and
+vanilla's own lever alike - and on a Pandorical client the model lifts half a block to meet the
+slab rather than floating under it. A vanilla client sees it hang at the block's ceiling line.
+
 ## Crafting
 
 A lever and a torch, shapeless.
@@ -19,13 +26,9 @@ Lever Torch registers its block and item models through Pandorical's content syn
 
 **The Pandorical mod must be installed client-side** to see the Lever Torch rendered as a torch. Without it the block still works (a connecting client can pull it and it still powers what it is wired to), but it does not render correctly.
 
-## Installation
+## Development
 
-Install server-side alongside its declared dependencies (see `fabric.mod.json`); connecting clients need only Pandorical. Version targets live in `gradle.properties` (Minecraft, loader, Fabric API) and `fabric.mod.json` (Java).
-
-## Art
-
-`generate_icon.py` and `generate_textures.py` cut the mod's icon and item sprite out of the vanilla jar. Both are deterministic; re-run either after a Minecraft version bump.
+Installing and the art pipeline are in [DEVELOPMENT.md](DEVELOPMENT.md).
 
 ## License
 

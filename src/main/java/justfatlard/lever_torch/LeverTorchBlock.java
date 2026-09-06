@@ -65,10 +65,11 @@ public class LeverTorchBlock extends LeverBlock {
 		Direction facing = state.getValue(FACING);
 		boolean powered = state.getValue(POWERED);
 
-		return switch (state.getValue(FACE)) {
+		VoxelShape shape = switch (state.getValue(FACE)) {
 			case FLOOR -> powered ? FLOOR_ON.get(facing) : FLOOR_OFF;
 			case CEILING -> powered ? CEILING_ON.get(facing) : CEILING_OFF;
 			case WALL -> powered ? WALL_ON.get(facing) : WALL_OFF.get(facing);
 		};
+		return SlabHung.hung(state, world, pos) ? SlabHung.raise(shape) : shape;
 	}
 }

@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "justfatlard.lever_torch.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "LeverHangsFromSlabMixin",
+    "LeverOutlineMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -18,6 +18,9 @@
       "justfatlard.lever_torch.Main"
     ]
   },
+  "mixins": [
+    "lever-torch-justfatlard.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loaderVersion}",
     "fabric-api": "${fabricApiVersion}",
