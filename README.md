@@ -22,7 +22,7 @@ A lever and a torch, shapeless.
 
 ## Pandorical
 
-Lever Torch registers its block and item models through Pandorical's content sync.
+Lever Torch runs server-side, and Pandorical is required: the server will not load this mod without it. It registers its block and item models through Pandorical's content sync.
 
 **The Pandorical mod must be installed client-side** to see the Lever Torch rendered as a torch. Without it the block still works (a connecting client can pull it and it still powers what it is wired to), but it does not render correctly.
 
