@@ -1,0 +1,15 @@
+{
+  "overview": [
+    "One block: a lever wearing a torch. While off it is the vanilla torch, pixel for pixel, and pulling it swings the torch over the way a lever's handle throws.",
+    "It burns at a torch's light in both states, so the light never gives the state away."
+  ],
+  "versions": {
+    "1.0.1": [
+      "A fresh build. The block is unchanged."
+    ],
+    "1.0.0": [
+      "The lever torch arrives, shapeless from a lever and a torch, placed anywhere a torch goes: upright on the floor, angled out from a wall, hanging from a ceiling. Everything a lever does, it does.",
+      "It hangs from the underside of a top slab as well, and so does vanilla's own lever, which the game otherwise refuses."
+    ]
+  }
+}
