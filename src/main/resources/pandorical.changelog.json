@@ -8,8 +8,10 @@
       "A fresh build. The block is unchanged."
     ],
     "1.0.0": [
-      "The lever torch arrives, shapeless from a lever and a torch, placed anywhere a torch goes: upright on the floor, angled out from a wall, hanging from a ceiling. Everything a lever does, it does.",
-      "It hangs from the underside of a top slab as well, and so does vanilla's own lever, which the game otherwise refuses."
+      "The lever torch, shapeless from a lever and a torch, placed anywhere a torch goes.",
+      "Upright on the floor, angled out from a wall, hanging from a ceiling.",
+      "Everything a lever does, it does.",
+      "It hangs from the underside of a top slab, and so does vanilla's own lever."
     ]
   }
 }
