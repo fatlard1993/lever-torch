@@ -11,10 +11,7 @@ A Fabric mod that adds one block: a lever wearing a torch.
 
 ## Hangs From A Slab
 
-Vanilla will not hang a lever from the underside of a top slab, because that face is not at the
-block's edge. It is a flat face all the same, so here a lever hangs from it - the lever torch and
-vanilla's own lever alike - and on a Pandorical client the model lifts half a block to meet the
-slab rather than floating under it. A vanilla client sees it hang at the block's ceiling line.
+Vanilla will not hang a lever from the underside of a top slab, because that face is not at the block's edge. It is a flat face all the same, so here a lever hangs from it - the lever torch and vanilla's own lever alike - and on a Pandorical client the model lifts half a block to meet the slab rather than floating under it. A vanilla client sees it hang at the block's ceiling line.
 
 ## Crafting
 
