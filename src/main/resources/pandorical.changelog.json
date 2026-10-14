@@ -4,6 +4,9 @@
     "It burns at a torch's light in both states, so the light never gives the state away."
   ],
   "versions": {
+    "1.0.2": [
+      "Release notes rewritten to read plainly; nothing in play changes."
+    ],
     "1.0.1": [
       "A fresh build. The block is unchanged."
     ],
