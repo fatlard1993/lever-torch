@@ -4,6 +4,9 @@
     "It burns at a torch's light in both states, so the light never gives the state away."
   ],
   "versions": {
+    "1.0.3": [
+      "Mod Menu's Donate button leads to sponsoring the author on GitHub. Nothing in play changes."
+    ],
     "1.0.2": [
       "Release notes rewritten to read plainly; nothing in play changes."
     ],
