@@ -4,6 +4,9 @@
     "It burns at a torch's light in both states, so the light never gives the state away."
   ],
   "versions": {
+    "1.0.4": [
+      "Drop changelog notes for changes nothing in the game shows."
+    ],
     "1.0.0": [
       "The lever torch, shapeless from a lever and a torch, placed anywhere a torch goes.",
       "Upright on the floor, angled out from a wall, hanging from a ceiling.",
