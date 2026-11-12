@@ -1,0 +1,41 @@
+{
+  "demo": {
+    "name": "Lever Torch",
+    "icon": "lever-torch-justfatlard:lever_torch",
+    "about": [
+      "A lever that looks exactly like a torch, lit whether it is on or off, so nobody can tell it is a switch.",
+      "Build a hidden door: put a lever torch on a wall, wire it to the sticky pistons, and pull it. Try hanging one, or a plain lever, from the underside of a top slab."
+    ]
+  },
+  "pvp_preset": 1,
+  "needs": ["lever-torch-justfatlard"],
+  "preset": {
+    "name": "Lever Torch",
+    "icon": "lever-torch-justfatlard:lever_torch",
+    "pvp": false,
+    "game_mode": "survival",
+    "entry_kit": [
+      {"slot": 0, "item": {"id": "lever-torch-justfatlard:lever_torch", "count": 8}},
+      {"slot": 1, "item": {"id": "minecraft:torch", "count": 16}},
+      {"slot": 2, "item": {"id": "minecraft:stone_bricks", "count": 64}},
+      {"slot": 3, "item": {"id": "minecraft:sticky_piston", "count": 4}},
+      {"slot": 4, "item": {"id": "minecraft:redstone", "count": 32}},
+      {"slot": 5, "item": {"id": "minecraft:stone_brick_slab", "count": 16}},
+      {"slot": 6, "item": {"id": "minecraft:redstone_lamp", "count": 4}},
+      {"slot": 7, "item": {"id": "minecraft:lever", "count": 4}},
+      {"slot": 8, "item": {"id": "minecraft:iron_pickaxe", "count": 1}},
+      {"slot": 9, "item": {"id": "minecraft:stone_bricks", "count": 64}},
+      {"slot": 10, "item": {"id": "minecraft:repeater", "count": 4}},
+      {"slot": 11, "item": {"id": "minecraft:cooked_beef", "count": 8}}
+    ],
+    "respawn_kit": "entry",
+    "goal": "time",
+    "mobs": "off",
+    "life": 15,
+    "size": 2,
+    "world": "overworld",
+    "shape": "flat",
+    "biome": "minecraft:plains",
+    "weather": "clear"
+  }
+}
