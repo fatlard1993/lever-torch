@@ -4,6 +4,9 @@
     "It burns at a torch's light in both states, so the light never gives the state away."
   ],
   "versions": {
+    "1.0.5": [
+      "A demo to play in PvP Dimensions' onboarding."
+    ],
     "1.0.4": [
       "Drop changelog notes for changes nothing in the game shows."
     ],
