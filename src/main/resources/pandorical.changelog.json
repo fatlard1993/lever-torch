@@ -4,6 +4,9 @@
     "It burns at a torch's light in both states, so the light never gives the state away."
   ],
   "versions": {
+    "1.0.6": [
+      "A lever hung from a top slab lifts its outline once per shape, not every time the game asks for it."
+    ],
     "1.0.5": [
       "A demo to play in PvP Dimensions' onboarding."
     ],
