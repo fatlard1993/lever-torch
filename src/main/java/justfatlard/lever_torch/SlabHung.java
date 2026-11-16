@@ -1,5 +1,9 @@
 package justfatlard.lever_torch;
 
+import java.util.Collections;
+import java.util.Map;
+import java.util.WeakHashMap;
+
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.FaceAttachedHorizontalDirectionalBlock;
@@ -23,6 +27,9 @@ public final class SlabHung {
 	/** Half a block: the distance from the block's ceiling up to a top slab's underside. */
 	private static final double LIFT = 0.5;
 
+	/** Outlines are asked for constantly and come from a handful of fixed shapes, so each is lifted once. */
+	private static final Map<VoxelShape, VoxelShape> RAISED = Collections.synchronizedMap(new WeakHashMap<>());
+
 	/** Whether this ceiling-mounted state has a top slab, and only a top slab, above it. */
 	public static boolean hung(BlockState state, BlockGetter level, BlockPos pos) {
 		if (!state.hasProperty(FaceAttachedHorizontalDirectionalBlock.FACE)
@@ -34,6 +41,6 @@ public final class SlabHung {
 	}
 
 	public static VoxelShape raise(VoxelShape shape) {
-		return shape.move(0.0, LIFT, 0.0);
+		return RAISED.computeIfAbsent(shape, s -> s.move(0.0, LIFT, 0.0));
 	}
 }
